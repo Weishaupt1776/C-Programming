@@ -89,17 +89,17 @@ int main(void)
 					printf("error: cannot mod with 0 divisor\n");
 				break;
 			case '?':
-                showTop();
-                break;
-            case '#':
-                duplicate();
-                break;
-            case '~':
-                swapItems();
-                break;
-            case '!':
-                clearStack();
-                break;
+             			showTop();
+                		break;
+            		case '#':
+                		duplicate();
+                		break;
+            		case '~':
+                		swapItems();
+                		break;
+            		case '!':
+                		clearStack();
+                		break;
 			case '\n':
 				printf("\t%.8g\n", pop());
 				break;

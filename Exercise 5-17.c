@@ -4,14 +4,14 @@
  * field sorted according to an independent set of options. (The index
  * for this book was sorted with -df for the index category and -n for
  * the page numbers.)
- */
- 
+ */ 
  
 /* Much of the code in this function was taken from a user called
  * "elyasin" on github. All rights and honor for code functions
- * 'strfcmp', 'strdcmp', 'strdfcmp' go to elyasin.*/
+ * 'strfcmp', 'strdcmp', 'strdfcmp', 'numcmp' and 'substring' go to elyasin.*/
  
- // https://github.com/Elyasin/K-and-R-solutions/blob/master/Exercise%205-16/sort.c
+ // https://github.com/Elyasin/K-and-R-solutions/blob/master/Exercise%205-17/sort.c
+// Special thanks to Elyasin for taking the time to share this code with the world. Saved me in particular from painful headache.
 
 #include <stdio.h>
 #include <string.h>
